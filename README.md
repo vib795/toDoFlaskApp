@@ -13,12 +13,7 @@ $ python3 -m venv venv
 
 Activate it
 ```console
-$ . venv/bin/activate
-```
-
-or on Windows
-```console
-venv\Scripts\activate
+$ source venv/bin/activate
 ```
 
 Install Flask
@@ -33,13 +28,14 @@ $ export FLASK_APP=app.py
 $ export FLASK_ENV=development
 ```
 
-or on Windows
-```console
-$ set FLASK_APP=app.py
-$ set FLASK_ENV=development
-```
-
 Run the app
 ```console
 $ flask run
+```
+
+OR
+
+```
+console
+$ python app.py
 ```
