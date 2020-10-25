@@ -35,7 +35,6 @@ $ flask run
 
 OR
 
-```
-console
+```console
 $ python app.py
 ```
